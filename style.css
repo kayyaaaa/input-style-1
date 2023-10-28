@@ -1,0 +1,64 @@
+
+input{
+    display: block;
+}
+.email{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    
+}
+.email::placeholder{
+    color: #9E9E9E;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.pass{
+    width: 467px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #F00;
+    background: #610000;
+    color: #F07272;
+    
+    
+}
+.pass::placeholder{
+    color: #F07272;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.number{
+    width: 541px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #A8AB00;
+    background: #FFF;
+    color: #A8AB00;
+    
+}
+.number::placeholder{
+    color: #A8AB00;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.text{
+    width: 315px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid #F9FE03;
+    background: #292828;
+    color: #F9FE03;
+    caret-color: yellowgreen;
+    
+}
+.text::placeholder{
+    color: #F9FE03;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
